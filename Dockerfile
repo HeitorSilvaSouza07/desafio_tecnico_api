@@ -2,10 +2,10 @@ FROM node:24.14.1
 
 WORKDIR /src
 
-COPY package.json /src/
+COPY package.json .
 
 RUN npm install
 
-COPY . .
+COPY . . 
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"] 
