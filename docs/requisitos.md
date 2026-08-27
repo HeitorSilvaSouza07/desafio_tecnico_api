@@ -27,5 +27,12 @@
 
 ### Regras de negocio:
 
+- Somente diretor e secretario podem cadastrar alunos e professores
+- Somente professores podem inserir notas
+- Somente secretarios podem criar materias e turmas
+- O professor só pode assumir materias que não batem com o horario de outras aulas
+- O aluno não pode assumir duas aulas no mesmo horario
+- O aluno é reprovado em caso de nota abaixo de seis
+- O aluno é reprovado em caso de presença abaixo de 70% ao final do semestre
 
 
