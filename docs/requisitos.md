@@ -27,12 +27,10 @@
 
 ### Regras de negocio:
 
-- Somente diretor e secretario podem cadastrar alunos e professores
-- Somente professores podem inserir notas
-- Somente secretarios podem criar materias e turmas
-- O professor só pode assumir materias que não batem com o horario de outras aulas
-- O aluno não pode assumir duas aulas no mesmo horario
-- O aluno é reprovado em caso de nota abaixo de seis
-- O aluno é reprovado em caso de presença abaixo de 70% ao final do semestre
-
-
+- RN01: Somente diretor e secretario podem cadastrar alunos e professores
+- RN02: Somente professores podem inserir notas
+- RN03: Somente secretarios podem criar materias e turmas
+- RN04: O professor só pode assumir materias que não batem com o horario de outras aulas
+- RN05: O aluno não pode assumir duas aulas no mesmo horario
+- RN06: O aluno é reprovado em caso de nota abaixo de seis
+- RN07: O aluno é reprovado em caso de presença abaixo de 70% ao final do semestre
